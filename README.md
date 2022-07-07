@@ -40,7 +40,7 @@
     <br />
     <br />
     <br />
-    <a href="https://netflix-app-mern.web.app/">View Deployment</a>
+    <a href="https://netflix-clone-mauve-nine.vercel.app/">View Deployment</a>
     ·
     <a href="mailto:srivastavasahil133@gmail.com">Report Website-Breaking Bug</a>
     
@@ -98,7 +98,6 @@ Ignore the Deceptive site ahead warning
 * [React.js](https://reactjs.org/)
 * [Material-UI](https://mui.com/)
 * [Firebase](https://firebase.google.com/)
-  <br/>Not in this repository:
 * [Express](https://expressjs.com/)
 * [Mongoose](https://mongoosejs.com/)
 
@@ -128,10 +127,28 @@ You should be using npm to install all node modules required for this project
    ```sh
    npm install
    ```
-3. Create a .env file and enter this:
+3. Create a .env file in every folder:
 
+  frontend:
    ```js
    REACT_APP_API_URL= "https://netflix-app0.herokuapp.com/api"
+
+   <!-- Replace with your own rest API -->
+   ```
+
+   backend:
+   ```js
+   MONGO_URL= "-url here-"
+   SECRET= '-any string here'
+
+   <!-- Replace with your own MongoDb atlas server -->
+   ```
+
+   adminPanel:
+   ```js
+   PORT= 4000
+   REACT_APP_API_URL= "https://netflix-app0herokuapp.com/api"
+
 
    <!-- Replace with your own rest API -->
    ```
